@@ -5,7 +5,7 @@ var length = 20;
 var score = 0;
 
 function setup() {
-  createCanvas(300, 400);
+  createCanvas(500, 400);
   for (var i=0;i<length;i++) {
   	box[i] = new Box();
   }
